@@ -1,0 +1,10 @@
+@font-face{
+    font-family: "bmd";
+    font-weight: 800;
+    src:url("../font/AP-OTF-BunkyuMdGoStd-EB.woff");
+}
+@font-face{
+    font-family: "gkg";
+    font-weight: 600;
+    src:url("../font/SourceHanSansJP-Bold.woff");
+}
