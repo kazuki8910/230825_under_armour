@@ -138,6 +138,7 @@ html {
   width: 57%;
   height: 0%;
   transition: height 0.2s;
+  will-change: height, left, right;
 }
 .ss23_slash__main_black {
   background: #000;
@@ -174,7 +175,7 @@ html {
     height: 0%;
     left: 0%;
   }
-  100% {
+  99.9%, to {
     height: 100%;
     left: 50%;
   }
@@ -184,19 +185,14 @@ html {
     height: 0%;
     right: 0%;
   }
-  100% {
+  99.9%, to {
     height: 100%;
     right: 50%;
   }
 }
 .ss23_slash__img {
-  transition: 0.4s;
+  display: block;
   opacity: 0;
-  transform: scale(0.7);
-}
-.ss23_slash__img_on {
-  opacity: 1;
-  transform: scale(1);
 }
 .ss23_about__wrapper {
   width: 100%;
@@ -352,6 +348,16 @@ html {
   margin-bottom: 12px;
   position: relative;
 }
+.ss23_style_btm__img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  transition: background 0.2s;
+}
 .ss23_style_btm__img img {
   display: block;
   width: 100%;
@@ -364,14 +370,8 @@ html {
   transform: translateX(-50%) translateY(-50%);
   transition: opacity 0.5s;
 }
-.ss23_style_btm__img img:nth-of-type(2) {
-  opacity: 0;
-}
-.ss23_style_btm__img:hover img:nth-of-type(1) {
-  opacity: 0;
-}
-.ss23_style_btm__img:hover img:nth-of-type(2) {
-  opacity: 1;
+.ss23_style_btm__img:hover::after {
+  background: rgba(255, 255, 255, 0.2);
 }
 .ss23_style_btm__btn {
   display: block;

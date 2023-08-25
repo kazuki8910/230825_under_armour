@@ -14,22 +14,6 @@ $(function(){
       });
     }    
   
-    // 動画表示
-    {
-      if ($('.ss23_movie').length) {
-        const video = document.getElementById('ss23_movie');
-        const videoSrc = 'assets/movie/q3_movie.m3u8';
-        if (Hls.isSupported()) {
-          var hls = new Hls();
-          hls.loadSource(videoSrc);
-          hls.attachMedia(video);
-        }
-        else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-          video.src = videoSrc;
-        }
-      }
-    }
-
     // スクロールで斜め線表示
     {
       // 読み込み時に画面内にあれば表示
@@ -56,9 +40,13 @@ $(function(){
           // 表示領域でアニメーション始動
           if(elementTop <= windowCenter && !$(this).hasClass("ss23_slash__main_on")){
             $(this).addClass('ss23_slash__main_on');
-            const $this = $(this);
+            const $this_img = $(this).siblings(".ss23_slash__img");
+            
             setTimeout(function(){
-              $this.siblings(".ss23_slash__img").addClass("ss23_slash__img_on");
+              $this_img.addClass("ss23_slash__img_on");
+              $this_img.animate({
+                "opacity": "1"
+              });
             }, 200);
           }
 
