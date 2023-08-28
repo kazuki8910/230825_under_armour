@@ -155,6 +155,9 @@ html {
 .ss23_slash__main_lightblue {
   background: #00BFFF;
 }
+.ss23_slash__main_darkblue {
+  background: #000043;
+}
 .ss23_slash__main_re {
   transform: translateX(50%) skewX(-29deg);
   left: auto;

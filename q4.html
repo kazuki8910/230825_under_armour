@@ -38,13 +38,16 @@
       <!-- ページ独自のコード -->
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css?v=8">
 
         <!-- jquery -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <!-- fastClick.js -->
-        <script src="assets/js/jQuery.fastClick.js"></script>
-      <!-- END：ページ独自のコード -->
+        <script defer src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- swiper.js -->
+        <link rel="stylesheet" href="//unpkg.com/swiper@7/swiper-bundle.min.css">
+        <script defer src="//unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <!-- lodash.js -->
+        <script defer src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+      <!-- END:ページ独自のコード -->
 
   </head>
   <body>
@@ -54,6 +57,408 @@
     <script src="https://store.alpen-group.jp/campaign/ec/other-site/al-group-global-header.js" charset="UTF-8" defer></script>
     <!-- END global header2021 INCLUDE --> 
     
+
+
+    <!-- メインコンテンツ -->
+    <main class="ss23_main" style="background-image: url('assets/img/ss23_bg.jpg');">
+      
+      <!-- スクロールトップボタン -->
+      <a href="#" class="ss23_scrolltop"></a>
+      <!-- END:スクロールトップボタン -->
+
+      <!-- Gナビ -->
+      <header class="ss23_header">
+        <div class="ss23_header__wrapper">
+          <a href="/under_armour/q4.html" class="ss23_header__logo">
+            <img src='assets/img/ss23_logo.svg' alt='UNDER ARMOUR' width='362' height='29'>
+          </a>
+          <nav class="ss23_header__nav">
+            <a href="/under_armour/q4.html" class="ss23_header__link">トップ</a>
+            <a href="/under_armour/q4.html#ss23_mens" class="ss23_header__link">メンズ</a>
+            <a href="/under_armour/q4.html#ss23_womens" class="ss23_header__link">ウィメンズ</a>
+            <a href="/under_armour/q4_gallery.html" class="ss23_header__link">スタイルギャラリー</a>
+            <a href="//store.alpen-group.jp/disp/CSfContentsPLP.jsp?baseCatTp=1&B=481" class="ss23_header__link ss23_header__link_spdn">その他の商品一覧</a>
+          </nav>
+        </div>
+      </header>
+      <!-- END:Gナビ -->
+
+      <!-- トップスライダー -->
+      <section class="swiper ss23_top">
+        <div class="swiper-wrapper ss23_top__wrapper">
+          <div class="swiper-slide ss23_top__slide">
+            <picture>
+              <source srcset="assets/img/q4_top_01_sp.jpg" media="(max-width: 768px)">
+              <img src='assets/img/q4_top_01.jpg' alt='Q4イメージ画像' width='362' height='29'>
+            </picture>
+          </div>
+          <div class="swiper-slide ss23_top__slide">
+            <picture>
+              <source srcset="assets/img/q4_top_02_sp.jpg" media="(max-width: 768px)">
+              <img loading="lazy" src='assets/img/q4_top_02.jpg' alt='Q4イメージ画像' width='362' height='29'>
+            </picture>
+          </div>
+        </div>
+      </section>
+      <!-- END:トップスライダー -->
+
+      <!-- About -->
+      <section class="ss23_about ss23_slash">
+        <div class="ss23_about__wrapper ss23_slash__wrapper">
+          <!-- 斜め線 -->
+          <div class="ss23_slash__main ss23_slash__main_about ss23_slash__main_black"></div>
+          
+          <!-- コンテンツ -->
+          <div class="ss23_about__img ss23_about__img_01 ss23_slash__img">
+            <picture>
+              <source srcset="assets/img/ss23_about_01_sp.png" media="(max-width: 768px)">
+              <img src='assets/img/ss23_about_01.png' alt='UNDER ARMOUR ロゴ' width='362' height='29'>
+            </picture>
+          </div>
+          <div class="ss23_about__img ss23_about__img_02 ss23_slash__img">
+            <picture>
+              <source srcset="assets/img/ss23_about_02_sp.png" media="(max-width: 768px)">
+              <img src='assets/img/ss23_about_02.png' alt='UNDER ARMOUR ロゴ' width='362' height='29'>
+            </picture>
+          </div>
+          <div class="ss23_about__img ss23_about__img_03 ss23_slash__img">
+            <picture>
+              <source srcset="assets/img/ss23_about_03_sp.png" media="(max-width: 768px)">
+              <img src='assets/img/ss23_about_03.png' alt='UNDER ARMOUR ロゴ' width='362' height='29'>
+            </picture>
+          </div>
+          
+        </div>
+      </section>
+      <!-- END:About -->
+
+      <!-- 動画 -->
+      <section class="ss23_movie">
+        <iframe width="1000" height="562.5" src="https://www.youtube.com/embed/dxDk-4AKHy8" title="アンダーアーマー　MY DAY MY WAY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </section>
+
+      <!-- 性別 -->
+      <section class="ss23_sex">
+        <a href="/under_armour/q4.html#ss23_mens" class="ss23_sex__btn">メンズ</a>
+        <a href="/under_armour/q4.html#ss23_womens" class="ss23_sex__btn">ウィメンズ</a>
+      </section>
+      <!-- END:性別 -->
+
+      <!-- STYLE1 -->
+      <section id="ss23_mens" class="ss23_style ss23_slash">
+
+        <!-- 上部画像 -->
+        <div class="ss23_style_top ss23_slash__wrapper">
+
+          <!-- 背景 -->
+          <div class="ss23_slash__main ss23_slash__main_darkblue"></div>
+
+          <p class="ss23_style_top__ttl">STYLE  1</p>
+          <div class="ss23_style_top__items ss23_slash__img">
+            <div class="ss23_style_top__item">
+              <img class="ss23_style_top__img" loading='lazy' src='assets/img/q4_style1_1.jpg' alt='STYLE1 スポーツスタイル イメージ画像' width='650' height='885'>
+              <p class="ss23_style_top__txt">スポーツ スタイル</p>
+            </div>
+            <div class="ss23_style_top__item">
+              <img class="ss23_style_top__img" loading='lazy' src='assets/img/q4_style1_2.jpg' alt='STYLE1 カジュアルスタイル イメージ画像' width='650' height='885'>
+              <p class="ss23_style_top__txt">カジュアル スタイル</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 下部商品一覧 -->
+        <div class="ss23_style_btm">
+
+          <!-- 左側の商品一覧 -->
+          <div class="ss23_style_btm__products">
+            <div class="ss23_style_btm__product">
+              <a href="//store.alpen-group.jp/f/dsg-190321-" class="ss23_style_btm__img">
+                <img loading='lazy' src='assets/img/q4_style1_product_01.jpg' alt='商品画像' width='200' height='238'>
+              </a>
+              <a href="//store.alpen-group.jp/f/dsg-190321-" class="ss23_style_btm__btn">購入はこちら</a>
+            </div>
+            <div class="ss23_style_btm__product">
+              <a href="//store.alpen-group.jp/f/dsg-190322-" class="ss23_style_btm__img">
+                <img loading='lazy' src='assets/img/q4_style1_product_02.jpg' alt='商品画像' width='200' height='238'>
+              </a>
+              <a href="//store.alpen-group.jp/f/dsg-190322-" class="ss23_style_btm__btn">購入はこちら</a>
+            </div>
+          </div>
+
+          <!-- 右側の商品一覧 -->
+          <div class="ss23_style_btm__products">
+            <div class="ss23_style_btm__product">
+              <a href="//store.alpen-group.jp/f/dsg-192664-" class="ss23_style_btm__img">
+                <img loading='lazy' src='assets/img/q4_style1_product_03.jpg' alt='商品画像' width='200' height='238'>
+              </a>
+              <a href="//store.alpen-group.jp/f/dsg-192664-" class="ss23_style_btm__btn">購入はこちら</a>
+            </div>
+            <div class="ss23_style_btm__product">
+              <a href="//store.alpen-group.jp/f/dsg-192664- " class="ss23_style_btm__img">
+                <img loading='lazy' src='assets/img/q4_style1_product_04.jpg' alt='商品画像' width='200' height='238'>
+              </a>
+              <a href="//store.alpen-group.jp/f/dsg-192664- " class="ss23_style_btm__btn">購入はこちら</a>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+      <!-- END:STYLE1 -->
+
+      <!-- STYLE2 -->
+      <section class="ss23_style ss23_slash">
+
+        <!-- 上部画像 -->
+        <div class="ss23_style_top ss23_slash__wrapper">
+
+          <!-- 背景 -->
+          <div class="ss23_slash__main ss23_slash__main_gray"></div>
+
+          <p class="ss23_style_top__ttl">STYLE  2</p>
+          <div class="ss23_style_top__items ss23_slash__img">
+            <div class="ss23_style_top__item">
+              <img class="ss23_style_top__img" loading='lazy' src='assets/img/q4_style2_1.jpg' alt='STYLE2 スポーツスタイル イメージ画像' width='650' height='885'>
+              <p class="ss23_style_top__txt">スポーツ スタイル</p>
+            </div>
+            <div class="ss23_style_top__item">
+              <img class="ss23_style_top__img" loading='lazy' src='assets/img/q4_style2_2.jpg' alt='STYLE2 カジュアルスタイル イメージ画像' width='650' height='885'>
+              <p class="ss23_style_top__txt">カジュアル スタイル</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 下部商品一覧 -->
+        <div class="ss23_style_btm">
+
+          <!-- 左側の商品一覧 -->
+          <div class="ss23_style_btm__products">
+            <div class="ss23_style_btm__product">
+              <a href="//store.alpen-group.jp/f/dsg-193761-" class="ss23_style_btm__img">
+                <img loading='lazy' src='assets/img/q4_style2_product_01.jpg' alt='商品画像' width='200' height='238'>
+              </a>
+              <a href="//store.alpen-group.jp/f/dsg-193761-" class="ss23_style_btm__btn">購入はこちら</a>
+            </div>
+            <div class="ss23_style_btm__product">
+              <a href="//store.alpen-group.jp/f/dsg-193761-" class="ss23_style_btm__img">
+                <img loading='lazy' src='assets/img/q4_style2_product_02.jpg' alt='商品画像' width='200' height='238'>
+              </a>
+              <a href="//store.alpen-group.jp/f/dsg-193761-" class="ss23_style_btm__btn">購入はこちら</a>
+            </div>
+          </div>
+
+          <!-- 右側の商品一覧 -->
+          <div class="ss23_style_btm__products">
+            <div class="ss23_style_btm__product">
+              <a href="//store.alpen-group.jp/f/dsg-192673-" class="ss23_style_btm__img">
+                <img loading='lazy' src='assets/img/q4_style2_product_03.jpg' alt='商品画像' width='200' height='238'>
+              </a>
+              <a href="//store.alpen-group.jp/f/dsg-192673-" class="ss23_style_btm__btn">購入はこちら</a>
+            </div>
+            <div class="ss23_style_btm__product">
+              <a href="//store.alpen-group.jp/f/dsg-192664-" class="ss23_style_btm__img">
+                <img loading='lazy' src='assets/img/q4_style2_product_04.jpg' alt='商品画像' width='200' height='238'>
+              </a>
+              <a href="//store.alpen-group.jp/f/dsg-192664-" class="ss23_style_btm__btn">購入はこちら</a>
+            </div>
+            <div class="ss23_style_btm__product ss23_style_btm__product_pcdn"></div>
+            <div class="ss23_style_btm__product">
+              <a href="//store.alpen-group.jp/f/dsg-192670-" class="ss23_style_btm__img">
+                <img loading='lazy' src='assets/img/q4_style2_product_05.jpg' alt='商品画像' width='200' height='238'>
+              </a>
+              <a href="//store.alpen-group.jp/f/dsg-192670-" class="ss23_style_btm__btn">購入はこちら</a>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+      <!-- END:STYLE2 -->
+
+      <!-- STYLE3 -->
+      <section id="ss23_womens" class="ss23_style ss23_slash">
+
+        <!-- 上部画像 -->
+        <div class="ss23_style_top ss23_slash__wrapper">
+
+          <!-- 背景 -->
+          <div class="ss23_slash__main ss23_slash__main_green"></div>
+
+          <p class="ss23_style_top__ttl">STYLE  3</p>
+          <div class="ss23_style_top__items ss23_slash__img">
+            <div class="ss23_style_top__item">
+              <img class="ss23_style_top__img" loading='lazy' src='assets/img/q4_style3_1.jpg' alt='style3 スポーツスタイル イメージ画像' width='650' height='885'>
+              <p class="ss23_style_top__txt">スポーツ スタイル</p>
+            </div>
+            <div class="ss23_style_top__item">
+              <img class="ss23_style_top__img" loading='lazy' src='assets/img/q4_style3_2.jpg' alt='style3 カジュアルスタイル イメージ画像' width='650' height='885'>
+              <p class="ss23_style_top__txt">カジュアル スタイル</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 下部商品一覧 -->
+        <div class="ss23_style_btm">
+
+          <!-- 左側の商品一覧 -->
+          <div class="ss23_style_btm__products">
+            <div class="ss23_style_btm__product">
+              <a href="//store.alpen-group.jp/f/dsg-192658-" class="ss23_style_btm__img">
+                <img loading='lazy' src='assets/img/q4_style3_product_01.jpg' alt='商品画像' width='200' height='238'>
+              </a>
+              <a href="//store.alpen-group.jp/f/dsg-192658-" class="ss23_style_btm__btn">購入はこちら</a>
+            </div>
+            <div class="ss23_style_btm__product">
+              <a href="//store.alpen-group.jp/f/dsg-192483-" class="ss23_style_btm__img">
+                <img loading='lazy' src='assets/img/q4_style3_product_02.jpg' alt='商品画像' width='200' height='238'>
+              </a>
+              <a href="//store.alpen-group.jp/f/dsg-192483-" class="ss23_style_btm__btn">購入はこちら</a>
+            </div>
+            <div class="ss23_style_btm__product">
+              <a href="//store.alpen-group.jp/f/dsg-192484-" class="ss23_style_btm__img">
+                <img loading='lazy' src='assets/img/q4_style3_product_03.jpg' alt='商品画像' width='200' height='238'>
+              </a>
+              <a href="//store.alpen-group.jp/f/dsg-192484-" class="ss23_style_btm__btn">購入はこちら</a>
+            </div>
+            <div class="ss23_style_btm__product">
+            </div>
+          </div>
+
+          <!-- 右側の商品一覧 -->
+          <div class="ss23_style_btm__products">
+            <div class="ss23_style_btm__product">
+              <a href="//store.alpen-group.jp/f/dsg-192660-" class="ss23_style_btm__img">
+                <img loading='lazy' src='assets/img/q4_style3_product_04.jpg' alt='商品画像' width='200' height='238'>
+              </a>
+              <a href="//store.alpen-group.jp/f/dsg-192660-" class="ss23_style_btm__btn">購入はこちら</a>
+            </div>
+            <div class="ss23_style_btm__product">
+              <a href="//store.alpen-group.jp/f/dsg-192481-" class="ss23_style_btm__img">
+                <img loading='lazy' src='assets/img/q4_style3_product_05.jpg' alt='商品画像' width='200' height='238'>
+              </a>
+              <a href="//store.alpen-group.jp/f/dsg-192481-" class="ss23_style_btm__btn">購入はこちら</a>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+      <!-- END:STYLE3 -->
+
+      <!-- STYLE4 -->
+      <section class="ss23_style ss23_slash">
+
+        <!-- 上部画像 -->
+        <div class="ss23_style_top ss23_slash__wrapper">
+
+          <!-- 背景 -->
+          <div class="ss23_slash__main ss23_slash__main_lightblue"></div>
+
+          <p class="ss23_style_top__ttl">STYLE  4</p>
+          <div class="ss23_style_top__items ss23_slash__img">
+            <div class="ss23_style_top__item">
+              <img class="ss23_style_top__img" loading='lazy' src='assets/img/q4_style4_1.jpg' alt='style4 スポーツスタイル イメージ画像' width='650' height='885'>
+              <p class="ss23_style_top__txt">スポーツ スタイル</p>
+            </div>
+            <div class="ss23_style_top__item">
+              <img class="ss23_style_top__img" loading='lazy' src='assets/img/q4_style4_2.jpg' alt='style4 カジュアルスタイル イメージ画像' width='650' height='885'>
+              <p class="ss23_style_top__txt">カジュアル スタイル</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 下部商品一覧 -->
+        <div class="ss23_style_btm">
+
+          <!-- 左側の商品一覧 -->
+          <div class="ss23_style_btm__products">
+            <div class="ss23_style_btm__product">
+              <a href="//store.alpen-group.jp/f/dsg-192658-" class="ss23_style_btm__img">
+                <img loading='lazy' src='assets/img/q4_style4_product_01.jpg' alt='商品画像' width='200' height='238'>
+              </a>
+              <a href="//store.alpen-group.jp/f/dsg-192658-" class="ss23_style_btm__btn">購入はこちら</a>
+            </div>
+            <div class="ss23_style_btm__product">
+              <a href="//store.alpen-group.jp/f/dsg-192484-" class="ss23_style_btm__img">
+                <img loading='lazy' src='assets/img/q4_style4_product_02.jpg' alt='商品画像' width='200' height='238'>
+              </a>
+              <a href="//store.alpen-group.jp/f/dsg-192484-" class="ss23_style_btm__btn">購入はこちら</a>
+            </div>
+            <div class="ss23_style_btm__product">
+              <a href="//store.alpen-group.jp/f/dsg-190297-" class="ss23_style_btm__img">
+                <img loading='lazy' src='assets/img/q4_style4_product_03.jpg' alt='商品画像' width='200' height='238'>
+              </a>
+              <a href="//store.alpen-group.jp/f/dsg-190297-" class="ss23_style_btm__btn">購入はこちら</a>
+            </div>
+            <div class="ss23_style_btm__product">
+            </div>
+          </div>
+
+          <!-- 右側の商品一覧 -->
+          <div class="ss23_style_btm__products">
+            <div class="ss23_style_btm__product">
+              <a href="//store.alpen-group.jp/f/dsg-192672-" class="ss23_style_btm__img">
+                <img loading='lazy' src='assets/img/q4_style4_product_04.jpg' alt='商品画像' width='200' height='238'>
+              </a>
+              <a href="//store.alpen-group.jp/f/dsg-192672-" class="ss23_style_btm__btn">購入はこちら</a>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+      <!-- END:STYLE4 -->
+
+      <!-- ギャラリー -->
+      <section class="ss23_gallerylink ss23_slash">
+        <div class="ss23_gallerylink__wrapper ss23_slash__wrapper">
+
+          <!-- 背景 -->
+          <div class="ss23_slash__main ss23_slash__main_black ss23_slash__main_re"></div>
+
+          <!-- 画像 -->
+          <a href="/under_armour/q4_gallery.html" class="ss23_gallerylink__img ss23_slash__img">
+            <picture>
+              <source srcset="assets/img/ss23_gallerylink_sp.jpg" media="(max-width: 768px)">
+              <img loading="lazy" src='assets/img/ss23_gallerylink.jpg' alt='スタイルギャラリーへのリンク画像' width='800' height='545'>
+            </picture>
+          </a>
+
+          <!-- 文字 -->
+          <div class="ss23_gallerylink__btm">
+            <p class="ss23_gallerylink__ttl">スタイルギャラリー</p>
+            <a href="/under_armour/q4_gallery.html" class="ss23_gallerylink__btn">一覧</a>
+          </div>
+
+        </div>
+
+      </section>
+      <!-- END:STYLE4 -->
+
+      <!-- 商品リンク -->
+      <section class="ss23_productlink">
+        <a href="//store.alpen-group.jp/disp/CSfContentsPLP.jsp?baseCatTp=1&B=481" class="ss23_productlink__wrapper">
+          <div class="ss23_productlink__top">
+            <figure class="ss23_productlink__logo">
+              <img loading='lazy' src='assets/img/ss23_porductlink_logo.svg' alt='UNDER ARMOURのロゴ' width='587' height='44'>
+            </figure>
+          </div>
+          <div class="ss23_productlink__btm">
+            <p class="ss23_productlink__txt">その他の商品はこちら</p>
+          </div>
+        </a>
+      </section>
+      <!-- END:商品リンク -->
+
+    </main>
+    <!-- END:メインコンテンツ -->
+
+
+
     <!-- START global footer2021 INCLUDE -->
     <div id="al-group-global-footer2021"></div>
     <!-- END global footer2021 INCLUDE -->
@@ -68,7 +473,17 @@
       });
     </script>
 
-    <script src="assets/js/script.js"></script>
+    <!-- フォント遅延読み込み -->
+    <script>
+      window.addEventListener('load', function() {
+        const delaycss = document.createElement('link');
+        delaycss.rel = 'stylesheet';
+        delaycss.href = 'assets/css/font.css';
+        document.head.appendChild(delaycss);
+      })
+    </script>
+    
+    <script defer src="assets/js/script.js?v=4"></script>
     
   </body>
 </html>
